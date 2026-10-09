@@ -15,11 +15,11 @@
 var SETTINGS = {
   // 1) Paste your Google Sheet's "Publish to web" CSV link here (between the quotes).
   //    Leave it empty to use the built-in backup list at the bottom of this file.
-  SHEET_CSV_URL: "",
+  SHEET_CSV_URL: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQcFpGSvatpx0WydmZsgMOgCd7kkRuYQmLPactcgZOZ9oLE9ek33PhHwnqn_oHB6sZ23jO33puVU6v-/pub?output=csv",
 
   // 2) Where the "Start this course" button goes if a course has no Thinkific Link yet.
   //    (e.g. your course catalog page). Leave empty to hide the button for those courses.
-  DEFAULT_COURSE_LINK: "",
+  DEFAULT_COURSE_LINK: "https://oihana.thinkific.com/hub",
 
   // 3) How many top matches to show before "See all courses".
   TOP_MATCHES: 5,
